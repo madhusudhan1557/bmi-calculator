@@ -32,18 +32,6 @@ class _ResultPageState extends State<ResultPage> {
               alignment: Alignment.bottomRight,
               child: Image.asset("assets/images/dec.png"),
             ),
-            Align(
-              alignment: Alignment.topLeft,
-              child: Image.asset("assets/images/dec1.png"),
-            ),
-            Align(
-              alignment: Alignment.topRight,
-              child: Image.asset("assets/images/right.png"),
-            ),
-            Align(
-              alignment: Alignment.bottomLeft,
-              child: Image.asset("assets/images/left.png"),
-            ),
             Column(
               children: [
                 Container(

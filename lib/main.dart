@@ -39,7 +39,7 @@ class BmiCalculator extends StatelessWidget {
       navigatorObservers: [BotToastNavigatorObserver()],
       title: "Bmi Calculator",
       theme: ThemeData(
-        primaryColor: const Color(0xffF2F2F2),
+        primaryColor: const Color(0xffF2F2F2).withOpacity(0.9876),
         backgroundColor: const Color(0xffC4D4F2),
         iconTheme: const IconThemeData(color: Colors.black),
       ),
